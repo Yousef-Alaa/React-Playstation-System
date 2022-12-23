@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import OldDesign from "./pages/Old_Design";
 import Users from "./pages/Users";
 import Devices from "./pages/Devices";
 import Market from './pages/Market';
@@ -10,6 +11,7 @@ export default function TheRoutes() {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/olddesign" element={<OldDesign />} />
             <Route path="users" element={<Users />} />
             <Route path="devices" element={<Devices />} />
             <Route path="market" element={<Market />} />
